@@ -72,3 +72,15 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/scala,intellij
+
+*.iws
+*.history
+*.cache
+.gitignore
+.idea/
+target/
+build.sbt
+crm/
+forum/
+resources/
+doc/
