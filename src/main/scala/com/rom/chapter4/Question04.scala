@@ -7,7 +7,7 @@ import scala.collection.immutable.SortedMap
 //4. Repeat the preceding exercise with a sorted map, so that the words are
 //printed in sorted order.
 object Question04 extends App {
-  val FILE_PATH: String = "C:\\Users\\rmeireles\\Desktop\\lorem.txt"
+  val FILE_PATH: String = ""
   val in = new Scanner(new File(FILE_PATH))
   val source = scala.io.Source.fromFile(FILE_PATH)
   val fileContent = try source.mkString finally source.close()
