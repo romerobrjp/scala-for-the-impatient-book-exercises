@@ -10,7 +10,7 @@ import java.util.Scanner
 //Or look at Chapter 9 for a Scalaesque way.
 //At the end, print out all words and their counts.
 object Question02 extends App {
-  val filePath: String = "C:\\Users\\rmeireles\\Desktop\\lorem.txt"
+  val filePath: String = ""
   val in = new Scanner(new File(filePath))
   var dictionary = scala.collection.mutable.Map[String, Int]()
 
