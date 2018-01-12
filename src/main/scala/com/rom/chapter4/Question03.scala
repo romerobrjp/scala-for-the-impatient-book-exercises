@@ -9,7 +9,7 @@ object Question03 extends App {
   val in = new Scanner(new File(filePath))
   val source = scala.io.Source.fromFile(filePath)
   val fileContent = try source.mkString finally source.close()
-  var words = fileContent.replaceAll(",", "").split(" ")
+  var words = fileContent.split("\\W+")
   val result = (for (word <- words) yield (word, words.count(_ == word))).toMap
   result.foreach(println(_))
 }
