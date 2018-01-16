@@ -1,4 +1,4 @@
-package com.rom.chapter5.question01
+package com.rom.chapter6.question01
 
 //1. Write an object Conversions with methods inchesToCentimeters, gallonsToLiters, and milesToKilometers.
 object Conversions extends App {

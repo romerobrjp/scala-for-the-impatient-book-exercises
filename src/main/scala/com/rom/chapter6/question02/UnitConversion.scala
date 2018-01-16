@@ -1,4 +1,4 @@
-package com.rom.chapter5.question02
+package com.rom.chapter6.question02
 
 //2. The preceding problem wasn’t very object-oriented. Provide a general
 //super-class UnitConversion and deﬁne objects  InchesToCentimeters, GallonsToLiters,

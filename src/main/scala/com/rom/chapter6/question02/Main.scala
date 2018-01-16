@@ -1,4 +1,4 @@
-package com.rom.chapter5.question02
+package com.rom.chapter6.question02
 
 object Main {
   def main(args: Array[String]): Unit = {

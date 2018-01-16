@@ -1,4 +1,4 @@
-package com.rom.chapter5
+package com.rom.chapter6
 
 //5. Write a Scala application, using the App trait, that prints its command-line
 //arguments in reverse order, separated by spaces. For example, scala Reverse
