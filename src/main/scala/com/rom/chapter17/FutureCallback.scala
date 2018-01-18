@@ -17,6 +17,13 @@ object FutureCallback extends App {
     case Success(v) => println(s"The Thread.sleep time was of $v")
     case Failure(ex) => println(ex.getMessage)
   }
+  // DEPRECATED mode
+  /*f.onSuccess {
+    case r => println(s"The Thread.sleep time was of $r")
+  }
+  f.onFailure {
+    case f => println(f.getMessage)
+  }*/
 
   println("B ..."); Thread.sleep(50)
   println("A ..."); Thread.sleep(50)
